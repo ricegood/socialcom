@@ -4,7 +4,7 @@
 
 ## I. Dataset & Models
 
-데이터셋의 경우 kaggle에 공개된 red wine quality 데이터셋을 사용했으며, 각 와인에 대해 2점부터 8점까지 매겨진 quality값을 2~6점(Bad), 7~8점(Good)의 두 구간으로 나누어 **binary classification**을 하도록 학습시켰다. 원본 데이터셋에서 전체 1,599개의 와인 중 1,382개는 Bad, 217개는 Good으로 분류되었으며 이 중 **80%는 훈련에, 20%는 테스트**에 사용하였다.
+데이터셋의 경우 kaggle에 공개된 red wine quality 데이터셋을 사용했으며, 각 와인에 대해 2점부터 8점까지 매겨진 quality값을 2\~6점(Bad), 7\~8점(Good)의 두 구간으로 나누어 **binary classification**을 하도록 학습시켰다. 원본 데이터셋에서 전체 1,599개의 와인 중 1,382개는 Bad, 217개는 Good으로 분류되었으며 이 중 **80%는 훈련에, 20%는 테스트**에 사용하였다.
 
 학습을 위해서는 `scikit-learn` 라이브러리에서 제공하는 Logistic regression, k-Nearest neighbors, SVM, Decision tree, Random forest 그리고 Gaussian NB 까지의 총 6개의 모델을 사용하였으며 모델별로 파라미터값을 조정해가며 **정확도(Precision 기준) 90% 이상이 되는 분류기를 찾아내는 것을 목표**로 하였다.
 
