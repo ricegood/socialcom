@@ -1,7 +1,5 @@
 # 코로나 바이러스와 전염병 모델 시뮬레이션
 
-<p style="text-align:right">2019-24567 구연재</p>
-
 
 
 ## Settings
@@ -29,6 +27,8 @@
 | **R0**          | 5.55              | 8.8               | 8.85              |
 | **R0 감소지점** | 50일째에 95% 감소 | 50일째에 95% 감소 | 50일째에 95% 감소 |
 
+
+
 > #### 미국
 
 |                 | SIR               | SEIR              | SEIRD             |
@@ -42,6 +42,8 @@
 | **R0**          | 17.6              | 44                | 35.7              |
 | **R0 감소지점** | 80일째에 80% 감소 | 80일째에 90% 감소 | 80일째에 87% 감소 |
 
+
+
 > #### 이탈리아
 
 |                 | SIR                                      | SEIR                                     | SEIRD                                    |
@@ -54,6 +56,8 @@
 | **Rho**         | -                                        | -                                        | 1/9                                      |
 | **R0**          | 8.6                                      | 24.6                                     | 21.9                                     |
 | **R0 감소지점** | 60일째에 80% 감소<br />90일째에 90% 감소 | 60일째에 93% 감소<br />80일째에 80% 감소 | 60일째에 90% 감소<br />80일째에 70% 감소 |
+
+
 
 > #### 일본
 
@@ -72,49 +76,45 @@
 
 ## Simulation
 
-국가별로 SIR, SEIR, SEIRD 모델에 대해 찾은 최적 파라미터를 기반으로 한 그래프는 다음과 같다. 각 모델에 대한 그래프와, 마지막 행에는 비교에 용이하도록 원본 데이터에 대한 그래프를 삽입했다.
+국가별로 SIR, SEIR, SEIRD 모델에 대해 찾은 최적 파라미터를 기반으로 한 그래프는 다음과 같다. 각 모델에 대한 그래프와, 마지막 셀에는 비교에 용이하도록 원본 데이터에 대한 그래프를 삽입했다.
 
 ### 한국
 
-|    Model    |    Graph & Parameters    |
-| :---------: | :----------------------: |
-|  SIR Model  |  ![](fig/korea_sir.png)  |
-| SEIR Model  | ![](fig/korea_seir.png)  |
-| SEIRD Model | ![](fig/korea_seird.png) |
-|    Real     |    ![](fig/korea.png)    |
+|        SIR Model         |       SEIR Model        |
+| :----------------------: | :---------------------: |
+|  ![](fig/korea_sir.png)  | ![](fig/korea_seir.png) |
+|     **SEIRD Model**      |      **Real Data**      |
+| ![](fig/korea_seird.png) |   ![](fig/korea.png)    |
 
 
 
 ### 미국
 
-|    Model    |  Graph & Parameters   |
-| :---------: | :-------------------: |
-|  SIR Model  |  ![](fig/us_sir.png)  |
-| SEIR Model  | ![](fig/us_seir.png)  |
-| SEIRD Model | ![](fig/us_seird.png) |
-|    Real     |    ![](fig/us.png)    |
+|       SIR Model       |      SEIR Model      |
+| :-------------------: | :------------------: |
+|  ![](fig/us_sir.png)  | ![](fig/us_seir.png) |
+|    **SEIRD Model**    |    **Real Data**     |
+| ![](fig/us_seird.png) |   ![](fig/us.png)    |
 
 
 
 ### 이탈리아
 
-|    Model    |    Graph & Parameters    |
-| :---------: | :----------------------: |
-|  SIR Model  |  ![](fig/italy_sir.png)  |
-| SEIR Model  | ![](fig/italy_seir.png)  |
-| SEIRD Model | ![](fig/italy_seird.png) |
-|    Real     |    ![](fig/italy.png)    |
+|        SIR Model         |       SEIR Model        |
+| :----------------------: | :---------------------: |
+|  ![](fig/italy_sir.png)  | ![](fig/italy_seir.png) |
+|     **SEIRD Model**      |      **Real Data**      |
+| ![](fig/italy_seird.png) |   ![](fig/italy.png)    |
 
 
 
 ### 일본
 
-|    Model    |    Graph & Parameters    |
-| :---------: | :----------------------: |
-|  SIR Model  |  ![](fig/japan_sir.png)  |
-| SEIR Model  | ![](fig/japan_seir.png)  |
-| SEIRD Model | ![](fig/japan_seird.png) |
-|    Real     |    ![](fig/japan.png)    |
+|        SIR Model         |       SEIR Model        |
+| :----------------------: | :---------------------: |
+|  ![](fig/japan_sir.png)  | ![](fig/japan_seir.png) |
+|     **SEIRD Model**      |      **Real Data**      |
+| ![](fig/japan_seird.png) |   ![](fig/japan.png)    |
 
 
 
